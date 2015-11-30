@@ -1,0 +1,10 @@
+This is UIAutomator based test.
+
+To generate configuration files for test assembly, run the following command from the command line:
+<android-sdk>/tools/android create uitest-project -n <name> -t  <target-id> -p <path>
+Where <name> is the name of the project that was created to test UiAutomator (in our case: SendMessage),
+<target-id> is the choice of device and Android API Level (you can get a list of installed devices,
+the team (<android-sdk> / tools / android list targets), and <path> is the path to the directory that contains the project.
+
+You can list targets via android list targets.
+
